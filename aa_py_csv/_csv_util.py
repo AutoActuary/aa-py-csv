@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Dict, Optional, Any
 
 from pandas import DataFrame, read_csv
-from pandasql import sqldf
+from pansql import sqldf
 
 
 def query_csv(

@@ -11,7 +11,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AutoActuary/aa-py-csv",
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(exclude=["test"]),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: Other/Proprietary License",
@@ -27,7 +27,7 @@ setuptools.setup(
     install_requires=[
         "locate>=1.1.1,==1.*",
         "pandas>=1.3.1,==1.*",
-        "pandasql>=0.7.3,==0.7.*",
+        "pansql==0.0.1",
     ],
     package_data={
         "": [

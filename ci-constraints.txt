@@ -5,4 +5,4 @@
 # Public packages
 locate==1.1.1
 pandas==1.5.3
-pandasql
+pansql==0.0.1
