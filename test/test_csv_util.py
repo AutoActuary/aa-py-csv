@@ -131,7 +131,6 @@ class TestQueryCsv(unittest.TestCase):
         path_utf8 = data_dir.joinpath("test_utf8.csv")
 
         with self.subTest("Read latin1 file with latin1 encoding"):
-
             df = query_csv(
                 input_file_path=path_latin,
                 pandas_kwargs={"encoding": "latin1"},
